@@ -89,21 +89,3 @@
     top: 0.1em;
 }
 
-.container .foot button
-{
-
-    width: 10%;
-    font-size: 1.2em;
-    padding: 1em;
-    background-color: #cd1b1b;
-    border: none;
-    border-radius: 30px;
-    margin: 1.5em;
-    color: #fff;
-}
-
-.container .foot button:hover
-{
-    cursor: pointer;
-    background-color: #801515;
-}

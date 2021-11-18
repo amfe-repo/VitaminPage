@@ -71,21 +71,3 @@
     border-radius: 100%;
 }
 
-.container .part3 button
-{
-
-    width: 10%;
-    font-size: 1.2em;
-    padding: 1em;
-    background-color: #cd1b1b;
-    border: none;
-    border-radius: 30px;
-    margin: 1.5em;
-    color: #fff;
-}
-
-.container .part3 button:hover
-{
-    cursor: pointer;
-    background-color: #801515;
-}

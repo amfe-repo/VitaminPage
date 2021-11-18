@@ -70,21 +70,25 @@
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.19), 0 8px 16px 0 rgba(0, 0, 0, 0.19);
 }
 
-.container .part2 button
-{
+/*MEDIA QUERY*/
 
-    width: 10%;
-    font-size: 1.2em;
-    padding: 1em;
-    background-color: #cd1b1b;
-    border: none;
-    border-radius: 30px;
-    margin: 1.5em;
-    color: #fff;
+@media screen and (max-width: 1400px) {
+    .container .part2 article section .img_section
+    {
+        width: 50px;
+        margin: 0 auto;
+        position: relative;
+        bottom: 15%;
+    }
 }
 
-.container .part2 button:hover
-{
-    cursor: pointer;
-    background-color: #801515;
+@media screen and (max-width: 1600px) {
+    .container .part2 article section .img_section
+    {
+        width: 50px;
+        margin: 0 auto;
+        position: relative;
+        bottom: 17%;
+    }
 }
+
