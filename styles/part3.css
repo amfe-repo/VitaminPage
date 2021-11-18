@@ -1,0 +1,91 @@
+/*PART 3*/
+
+.container .part3
+{
+    background-image: url("../resources/2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    height: auto;
+    text-align: center;
+    color: #000;
+}
+
+.container .part3 .intro_text
+{
+    padding-top: 6.5em;
+    padding-bottom: 3em;
+}
+
+.container .part3 .intro_text p
+{
+    margin-top: 2.5em;
+}
+
+.container .part3 .intro_text h2
+{
+    font-weight: bold;
+    font-size: 3.5em;
+    color: #cd1b1b;
+}
+
+.container .part3 p
+{
+    font-size: 1.5em;
+}
+
+.container .part3 article 
+{
+    width: 80%;
+    margin: 3.5em auto;
+}
+
+.container .part3 article section
+{
+    display: flex;
+    font-size: 1em;
+    padding: 1em; 
+    text-align: left; 
+    margin: 3em; 
+}
+
+.container .part3 article section:hover
+{
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.19), 0 8px 16px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container .part3 article section p
+{
+    padding: 1em;
+}
+
+.container .part3 article section .img_section
+{
+    width: 15em;
+}
+
+.container .part3 article section .img_section img
+{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.container .part3 button
+{
+
+    width: 10%;
+    font-size: 1.2em;
+    padding: 1em;
+    background-color: #cd1b1b;
+    border: none;
+    border-radius: 30px;
+    margin: 1.5em;
+    color: #fff;
+}
+
+.container .part3 button:hover
+{
+    cursor: pointer;
+    background-color: #801515;
+}

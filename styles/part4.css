@@ -1,0 +1,109 @@
+/*PART 4*/
+
+.container .part4
+{
+    background-image: url("../resources/3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    height: auto;
+    text-align: center;
+    color: #fff;
+}
+
+.container .part4 .intro_text
+{
+    padding-top: 8.5em;
+    padding-bottom: 3em;
+}
+
+.container .part4 .intro_text p
+{
+    margin-top: 2.5em;
+}
+
+.container .part4 .intro_text h2
+{
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+.container .part4 p
+{
+    font-size: 1.5em;
+}
+
+.container .part4 article 
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container .part4 article section
+{
+    display: flex;
+    padding: 1em; 
+    justify-content: center;
+}
+
+.container .part4 article section .img_section
+{
+    width: 15em;
+    margin: 1.8em
+}
+
+.container .part4 article section .img_section img
+{
+    width: 100%;
+}
+
+.container .foot
+{
+    color: #cd1b1b;
+    background-color: rgb(235, 234, 234);
+    height: auto;
+    text-align: center;
+    padding-top: 2.5em;
+}
+
+.container .foot h2
+{
+    width: 30%;
+    margin: 0.5em;
+    border: solid 1px #cd1b1b;
+    margin: 0 auto;
+    padding: 0.3em;
+}
+
+.container .foot h2 .line_style
+{
+    text-decoration-line: line-through;
+}
+
+.container .foot h2 .line_bold
+{
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0.3em;
+    position: relative;
+    top: 0.1em;
+}
+
+.container .foot button
+{
+
+    width: 10%;
+    font-size: 1.2em;
+    padding: 1em;
+    background-color: #cd1b1b;
+    border: none;
+    border-radius: 30px;
+    margin: 1.5em;
+    color: #fff;
+}
+
+.container .foot button:hover
+{
+    cursor: pointer;
+    background-color: #801515;
+}
